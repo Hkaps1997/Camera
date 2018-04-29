@@ -31,15 +31,7 @@ import static android.view.OrientationEventListener.ORIENTATION_UNKNOWN;
 
 public class MainActivity extends AppCompatActivity {
     android.hardware.Camera cam=null; //we imported android.hardware.camera as graphics.camera
-    //gives the zoom in camera like the one we used the mAPS
-    //there are some memory leaks in this deprecated camera api
-    //like if the activity is closed then to open the app phone must be rebooted
-
-    /*
-    deprecated apis are the ones which can work but can become disabled in future
-    some apis are in the beta stage which are pre released but their documentation can be changed by google
-    the ones that we use are the released apis
-     */
+    
 Button clk;
 
     @Override
@@ -60,7 +52,7 @@ Button clk;
         {
             cam= Camera.open();
 
-            //to know more about camera.open() see its definition
+           
             //basically we did this to assign a camera to the object cam
 
         }
@@ -178,16 +170,7 @@ Button clk;
 
 
 
-//        /** Check if this device has a camera */
-//        private boolean checkCameraHardware(Context context) {
-//            if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)){
-//                // this device has a camera
-//                return true;
-//            } else {
-//                // no camera on this device
-//                return false;
-//            }
-//        }
+
 
 
 
