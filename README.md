@@ -1,7 +1,8 @@
 # Camera
 This is an Android Application created to demonstrate the camera api in Android. The camera api finds its use in apps which
 have their own camera (eg. Whatsapp, Facebook etc.) rather than using the inbuilt camera of the device. This application can be 
-integrated with some other application to achieve the above mentioned objectives.
+integrated with some other application to achieve the above mentioned objectives.It allows the user to click images and store them in
+the devices' storage all using the functionalities of camera api.
 
 # Installation
 1. Clone the repository
